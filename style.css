@@ -1,0 +1,120 @@
+body {
+    background-color: #c7092fe7;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+strong {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    width: 60%;
+    font-size: large;
+}
+
+li {
+    text-align: start;
+    padding: 10px;
+    width: 70%;
+}
+
+ul {
+    width: 40%;
+}
+
+li::marker {
+    color: black;
+}
+
+img {
+    padding-top: 40px;
+    max-width: 450px;
+    padding-bottom: 50px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(51, 255, 0, 0.815);
+    margin-right: 100px;
+    font-size: large;
+}
+
+h2,
+h3 {
+    padding: 3px;
+    margin: 3px;
+}
+
+th {
+    padding-right: 10px;
+}
+
+table {
+    border: black 3px solid;
+    border-color: #260D61;
+}
+
+thead {
+    background-color: #260D61;
+    color: #d0dbf8;
+    height: 15px;
+}
+
+th {
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+tbody {
+    background-color: #b399f0;
+}
+
+td {
+    text-align: center;
+}
+
+menu {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    margin: 0;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 6px rgb(0, 0, 0.1);
+    background-color: rgba(255, 47, 47, 0.712);
+    color: black;
+}
+
+#telaInicial {
+    margin-bottom: 0;
+}
+
+.menu-itens:hover {
+    background-color: #d0dbf8;
+    color: #260D61;
+    border-radius: 8px;
+    padding: 15px 25px;
+    width: auto;
+}
